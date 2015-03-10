@@ -23,5 +23,6 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka"   %% "akka-testkit"                   % Common.AkkaVersion             % "test",
   "com.typesafe.akka"   %% "akka-persistence-experimental"  % Common.AkkaVersion             % "compile",
   "de.flapdoodle.embed"  % "de.flapdoodle.embed.mongo"      % Common.EmbeddedMongoVersion    % "test",
-  "org.scalatest"       %% "scalatest"                      % Common.ScalatestVersion        % "test"
+  "org.scalatest"       %% "scalatest"                      % Common.ScalatestVersion        % "test",
+  "org.scala-lang"       % "scala-reflect"                  % Common.ScalaVersion
 )

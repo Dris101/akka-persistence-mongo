@@ -12,6 +12,7 @@ import scala.language.implicitConversions
 import scala.reflect.ClassTag
 import scala.reflect.classTag
 
+trait BsonPersistable
 
 private[mongo] object MongoPersistenceRoot {
 
